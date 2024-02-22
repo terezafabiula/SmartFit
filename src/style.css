@@ -1,0 +1,493 @@
+ * {
+    margin: 0%; 
+    padding: 0%;
+        
+    }
+    
+    body{
+    font-family: 'Roboto', sans-serif;
+    width: auto;
+    }
+   
+    
+    p{
+      margin-left: 400px;
+      margin-top: 40px;
+      font-size: 120%;
+    }
+    
+    .logo{
+      background-color: black;
+      padding-left: 42%;
+      padding-right: 45%;
+      padding-top: 0.5%;
+      padding-bottom: 1%;
+      min-width: 10%;
+    }
+   
+    .reabertura{
+      font-size: 140%;
+      margin-left: 400px;
+      margin-top: 3%;
+      color: #333333;
+    }
+   
+    .linha{
+      margin-left: 0px;
+      width: 110px;
+      height: 10px;
+      margin-top: 25px;
+      background-color: #333333;
+      border: none;
+    }
+
+    .horario{
+      border: 3px solid #808080;
+      border-bottom: 5px solid #808080;
+      border-radius: 10px;
+      margin-top: 50px;
+      width: 1047px;
+      margin-left: 400px;
+      margin-right: 450px;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      
+    }
+    .relogio{
+      width: 3%;
+      margin-left: 20px;
+      margin-top: 15px;
+    }
+    .p-horario{
+      margin-top: -30px;
+      margin-left: 60px;
+      color: #808080;
+      font-size: 17px;
+    }
+    
+    .periodo-treino{
+      margin-left: 25px;
+      margin-top: 30px;
+      color: #808080;
+      font-size: 25px;
+    }
+    .tabela-escola{
+      margin-left: 25px;
+      margin-top: -10px;
+      font-size: 19px;
+      color: gray;
+    }
+    
+    .botao-und{
+      background-color: #FFB612;
+      border: 2px solid #FFB612;
+      padding-right: 50px;
+      padding-left: 50px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border-radius: 5px;
+      margin-left: 140px;
+      font-size: 20px;
+      font-family: 'IBM Plex Sans', sans-serif;
+      margin-top: 40px;
+    }
+    
+    .botao-limpar{
+      background-color: white;
+      border: 2px solid gray;
+      padding-right: 120px;
+      padding-left: 120px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border-radius: 5px;
+      font-size: 20px;
+      margin-left: 20px;
+      font-family: 'IBM Plex Sans', sans-serif;
+    }
+    
+    .tabela-mover{
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+    
+    .botoes{
+      flex-direction: [row  row-reverse ];
+      margin-top:0px;
+    }
+    
+    input[type="radio"] {
+      -ms-transform: scale(1.5); /* IE 9 */
+      -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+      transform: scale(1.8);
+    }
+    
+    input[type="checkbox"] {
+      -ms-transform: scale(1.5); /* IE 9 */
+      -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+      transform: scale(1.8);
+    }
+    
+    hr{
+      margin-left: 15px;
+      margin-right: 20px;
+      height: 1px;
+      background-color: #808080;
+    }
+    
+    .linha-manha{
+      margin-left: -10px;
+      margin-top: 15px;
+    }
+    
+    .horas{
+      margin-left: 490px;
+      margin-top: -290px;
+      font-size: 17px;
+      color: gray;
+    }
+    
+    .hora12{
+      margin-top: 50px;
+      margin-top: 40px;
+    }
+    
+    .hora18{
+      margin-top: 45px;
+      margin-top: 40px;
+    }
+    
+    .resultados{
+      margin-left: 350px;
+      margin-top: 65px;
+      font-size: 15px;
+    }
+    .unidades-tabela{
+      margin-top: 50px;
+    }
+    
+    .cosmeticos{
+      background-color: #f5f5f5;
+      margin-left: 400px;
+      padding-right: 85px;
+      margin-right: 0px;
+      margin-top: 50px;
+      padding-top: 200px;
+      position: absolute;
+    }
+    .mascara{
+      margin-top: -170px;
+      margin-left: 120px;
+    }
+    
+    .img-mascara-required{
+      width: 70px;
+      margin-top: 20px;
+      margin-left: 40px;
+    }
+    .img-mascara-recomend{
+      width: 70px;
+      margin-left: 60px;
+    }
+    
+    .obg-mascara{
+      margin-left: 20px;
+      margin-top: 10px;
+      font-size: 20px;
+    }
+    
+    .rec-mascara{
+      margin-left: 140px;
+      margin-top: -25px;
+      font-size: 20px;
+    }
+    
+    .toalha{
+      margin-top: -147px;
+      margin-left: 365px;
+    }
+    
+    .img-toalha-required{
+      width: 70px;
+      margin-left: 300px;
+      margin-top: 25px;
+    }
+    
+    .img-toalha-recommended{
+      width: 70px;
+      margin-left: 50px;
+    }
+    
+    .obrigatori-toalha{
+      font-size: 20px;
+      margin-top: -0px;
+      margin-left: 290px;
+    }
+    
+    .recomendado-toalha{
+      font-size: 20px;
+      margin-top: -23px;
+    }
+    
+    .bebedouro{
+      margin-top: -143px;
+      margin-left: 575px;
+    }
+    
+    .img-toalha-partial{
+      width: 70px;
+      margin-left: 550px;
+      margin-top: 20px;
+    }
+    
+    .img-toalha-forbidder{
+      width: 70px;
+    
+    }
+    
+    .parcial-bebedouro{
+      margin-left: 550px;
+      margin-top: 3px;
+    }
+    
+    .proibido-bebedouro{
+      margin-left: 625px;
+      margin-top: -20px;
+    }
+    
+    .vestiarios{
+      margin-left: 800px;
+      margin-top: -140px;
+    }
+    
+    .img-vest-required{
+      width: 70px;
+      margin-left: 725px;
+      margin-top: 15px;
+    }
+    
+    .img-vest-partial{
+      width: 70px;
+      margin-left: 10px;
+    }
+    
+    .img-vest-forbidde{
+      width: 70px;
+      margin-left: 10px;
+    }
+    
+    .obrigatori-vest{
+      margin-left: 720px;
+      margin-top: 5px;
+    }
+    
+    .parcial-vest{
+      margin-left: 815px;
+      margin-top: -23px;
+    }
+    
+    .proibido-vest{
+      margin-top: -23px;
+      margin-left: 895px;
+    }
+    
+    .cards{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin-top: 300px;
+      width: 1897px;
+    }
+    
+    .card-aberto{
+      background-color: #f5f5f5;
+      border-radius: 5px;
+      padding-bottom: 40px;
+      padding-top: 10px;
+      width: 400px;
+      margin: 0px -300px;
+      border: 3px solid #f0f0f0;
+    }
+    
+    .card-1-aberto{
+      margin-left: 20px;
+      margin-top: 5px;
+      color: #2FC022;
+    }
+    
+    .card-1-nome{
+      margin-left: 20px;
+      margin-top: 10px;
+      font-size: 30px;
+      color: #444444;
+    }
+    
+    .card-1-rua{
+      margin-left: 20px;
+      margin-top: 20px;
+      color: gray;
+    }
+    
+    .card-1-linha{
+      margin-top: 15px;
+      height: 0.5px;
+      color: gray;
+    }
+    
+    .card-1-mascara-obrigatorio{
+      width: 90px;
+      margin-left: 10px;
+      margin-top: 20px;
+    }
+    
+    .card-1-toalha-obrigatorio{
+      width: 90px;
+    }
+    
+    .card-1-garrafa-parcial{
+      width: 90px;
+      margin-left: -10px;
+    }
+    
+    .card-1-cabide-fechado{
+      width: 90px;
+      margin-left: -10px;
+    }
+    
+    .card-1-semana{
+      margin-left: 20px;
+      font-size: 30px;
+      color: #454545;
+    }
+    
+    .card-1-sabado{
+      margin-left: 205px;
+      margin-top: -33px;
+      font-size: 30px;
+      color: #454545;
+    }
+    
+    .card-1-6h{
+      margin-left: 20px;
+      margin-top: 10px;
+      font-size: 23px;
+      color: #808080;
+    }
+    
+    .card-1-09h{
+      margin-left: 210px;
+      margin-top: -27px;
+      font-size: 23px;
+      color: #808080;
+    }
+    
+    .card-1-domingo{
+      margin-left: 20px;
+      color: #454545;
+      font-size: 30px;
+    }
+    
+    .card-1-domingo-fechado{
+      margin-left: 20px;
+      color: #808080;
+      margin-top: 15px;
+    }
+    
+    .card-fechado{
+      background-color: #f5f5f5;
+      border-radius: 5px;
+      padding-bottom: 424px;
+      padding-top: 10px;
+      width: 400px;
+      margin: 0px -300px;
+      border: 3px solid #f0f0f0;
+    }
+    
+    .card-2-fechado{
+      margin-left: 20px;
+      margin-top: 5px;
+      color: #dc0a17;
+    }
+    
+    .card-2-nome{
+      margin-left: 20px;
+      font-size: 30px;
+      color: #444444;
+      margin-top: 10px;
+    }
+    
+    .card-2-rua{
+      margin-left: 20px;
+      color: gray;
+      margin-top: 15px;
+    }
+    
+    .card-fechado-3{
+      background-color: #f5f5f5;
+      border-radius: 5px;
+      border: 3px solid #f0f0f0;
+      padding-bottom: 424px;
+      width: 400px;
+      margin: 0px -300px;
+      padding-top: 10px;
+    }
+    
+    .card-3-fechado{
+      margin-left: 20px;
+      margin-top: 5px;
+      color: #dc0a17;
+    }
+    
+    .card-3-nome{
+      margin-left: 20px;
+      font-size: 30px;
+      color: #444444;
+      margin-top: 10px;
+    }
+    
+    .card-3-rua{
+      margin-left: 20px;
+      color: gray;
+      margin-top: 13px;
+    }
+    
+    @media screen and (max-width:480px) {
+      .background-logo{
+        width: 50%;
+      }
+    }
+    
+    @media screen and (max-widht: 768px) {
+        section, aside {
+            width: 100%
+        
+        }
+    }
+    
+    @media screen and (max-widht: 600px) {
+        nav li {
+            float: none;
+            width: 100%;
+        }
+    }
+    
+    .rodape {
+        justify-content: center;
+        text-align: center;
+        background-color:  #333333;
+        padding-bottom: 100px;
+        margin-top: 150px;
+        color: yellowgreen;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .logo-rodape{
+      width: 120px;
+      margin-top: 50px;
+      margin-left: -100px;
+    }
+    
+    .rodape-2020{
+      margin-left: -100px;
+      margin-top: 20px;
+      color: #fff;
+    }

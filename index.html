@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>SmartFit</title>
+</head>
+
+<div class="logo">
+<img src="./src/img/logo.svg" alt="">
+</div>
+<body>
+<div class="reabertura">
+<h1>REABERTURA <br> SMART FIT</h1>
+<hr class="linha">
+</div>
+
+    <p> O horário de funcionamento das nossas unidades está seguindo os decretos de cada município. Por isso, confira aqui <br> se a sua unidade está aberta e as medidas de segurança que estamos seguindo.</p>
+    
+    <div class="horario">
+        <img src="./src/img/icon-hour.png" alt="" class="relogio">
+        <p class="p-horario">Hórario</p>
+        <p class="periodo-treino">Qual período quer treinar?</p>
+        <br>
+        <hr >
+        <br><br>
+        <div class="tabela-escola">
+            <form>
+                <input type="radio" id="manha" name="fav_language" value="manha">
+                <label for="manha" class="tabela-mover">Manhã</label>
+                <hr class="linha-manha">
+                <br>
+                <input type="radio" id="tarde" name="fav_language" value="tarde">
+                <label for="tarde" class="tabela-mover">Tarde</label>
+                <hr class="linha-manha">
+                <br>
+                <input type="radio" id="noite" name="fav_language" value="noite">
+                <label for="noite" class="tabela-mover">Noite</label>
+                <hr class="linha-manha">
+                <br><br><br>
+                <input type="checkbox" id="fechar" name="abr" value="fechado">
+                <label for="fechar" style="color: black;" class="unidades-tabela">Exibir unidades fechadas</label>
+
+            </form> 
+        </div>
+        <div class="horas"> 
+            <p>06:00 ás 12:00</p>
+            <p class="hora12">12:01 ás 18:00</p>
+            <p class="hora18">18:01 ás 23:00</p>
+        </div>
+
+        <div class="resultados">
+            <p>Resultados encontrados: <b style="font-size: 25px;">O</b></p>
+        </div>
+        <div class="botoes">
+            <input type="button" onclick="" value="ENCONTRAR UNIDADES" class="botao-und">
+            <input type="button" onclick="" value="LIMPAR" class="botao-limpar">
+        </div>
+    </div> 
+    <div class="cosmeticos"> 
+<p class="mascara"><b>Máscara</b></p>
+<img src="./src/img/required-mask.png" alt="" class="img-mascara-required">
+<img src="./src/img/recommended-mask.png" alt="" class="img-mascara-recomend">
+<p class="obg-mascara">Obrigatório</p>
+<p class="rec-mascara">Recomendado</p>
+<p class="toalha"><b>Toalha</b></p>
+<img src="./src/img/required-towel.png" alt="" class="img-toalha-required">
+<img src="./src/img/recommended-towel.png" alt="" class="img-toalha-recommended">
+<p class="obrigatori-toalha">Obrigatório</p>
+<p class="recomendado-toalha">Recomendado</p>
+<p class="bebedouro"><b>Bebedouro</b></p>
+<img src="./src/img/partial-fountain.png" alt="" class="img-toalha-partial">
+<img src="./src/img/forbidden-fountain.png" alt="" class="img-toalha-forbidder">
+<p class="parcial-bebedouro">Parcial</p>   
+<p class="proibido-bebedouro">Proibido</p> 
+<p class="vestiarios"><b>Vestiários</b></p>  
+<img src="./src/img/required-lockerroom.png" class="img-vest-required"> 
+<img src="./src/img/partial-lockerroom.png" class="img-vest-partial">
+<img src="./src/img/forbidden-lockerroom.png" class="img-vest-forbidde">
+<p class="obrigatori-vest">Liberado</p>
+<p class="parcial-vest">Parcial</p>   
+ <p class="proibido-vest">Fechado</p> 
+    </div> 
+
+    <div class="cards"> 
+        <div class="card-aberto">
+            <p class="card-1-aberto"><b>Aberto</b></p>
+            <p class="card-1-nome"><b>Vicente Linhares</b></p>
+            <p class="card-1-rua">Rua Tibúrcio Cavalcante, 1885 - <br>
+            Meireles <br>
+            Fortaleza, CE</p>
+            <hr class="card1linha">
+            <img src="./src/img/required-mask.png" alt="" class="card-1-mascara-obrigatorio">
+            <img src="./src/img/required-towel.png" alt="" class="card-1-toalha-obrigatorio">
+            <img src="./src/img/partial-fountain.png" alt="" class="card-1-garrafa-parcial">
+            <img src="./src/img/forbidden-lockerroom.png" alt="" class="card-1-cabide-fechado">
+            <p class="card-1-semana"><b>Seg. à Sex.</b></p>
+            <p class="card-1-sabado"><b>Sáb</b></p>
+            <p class="card-1-6h">06h às 22h</p>
+            <p class="card-1-09h">09h às 18h</p>
+            <p class="card-1-domingo"><b>Dom.</b></p>
+            <p class="card-1-domingo-fechado">Fechada</p>
+        </div>
+        <div class="card-fechado">
+            <p class="card-2-fechado"><b>Fechado</b></p>
+            <p class="card-2-nome"><b>Vila Carrão</b></p>
+            <p class="card-2-rua">Av. Guilherme Gioegi, 1460, Vila Carrão <br>
+            São Paulo - SP</p>
+        </div>
+
+        <div class="card-fechado-3">
+            <p class="card-3-fechado"><b>Fechado</b></p>
+            <p class="card-3-nome"><b>Vila Carrão</b></p>
+            <p class="card-3-rua">Av. Guilherme Gioegi, 1460, Vila Carrão <br>
+            São Paulo - SP</p>
+        </div>
+    </div>  
+
+</body> 
+
+<div class="rodape">
+<img src="./src/img/logo.svg" alt="" class="logo-rodape">
+<p class="rodape-2020">Todos os direitos reservados - 2020</p>
+</div>
+</html> 
